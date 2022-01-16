@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(325, 68%, 38%);
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #3b3b3b71;
+}
+
+.title{
+    font-size: calc(6px + 2vw);
+    text-shadow: 0 0 10px rgb(158, 1, 132);
+}
+
+.title p{
+    font-size: calc(10px + 1vw);
+    text-shadow: 0 0 10px rgb(158, 1, 132);
+}
+
+.countdown{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+.countdown h1{
+    font-size: calc(10px + 6vw);
+    text-shadow: 0 0 10px rgb(158, 1, 132);
+}
